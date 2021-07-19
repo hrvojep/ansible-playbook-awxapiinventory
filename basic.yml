@@ -14,5 +14,5 @@
 
     - name: Creating an empty file
       file:
-        path: "/tmp/h1.txt"
+        path: "/tmp/h2.txt"
         state: touch
