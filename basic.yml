@@ -11,3 +11,8 @@
 
     - name: Test host connectivity
       ping:
+
+    - name: Creating an empty file
+        file:
+          path: "/tmp/h1.txt"
+          state: touch
