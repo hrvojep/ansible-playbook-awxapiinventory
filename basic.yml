@@ -13,6 +13,6 @@
       ping:
 
     - name: Creating an empty file
-        file:
-          path: "/tmp/h1.txt"
-          state: touch
+      file:
+        path: "/tmp/h1.txt"
+        state: touch
