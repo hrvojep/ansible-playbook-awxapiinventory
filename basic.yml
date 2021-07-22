@@ -1,6 +1,6 @@
 ---
 - name: BASIC TASKS
-  hosts: *
+  hosts: all
   gather_facts: false
 
   tasks:
