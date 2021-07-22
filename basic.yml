@@ -4,7 +4,7 @@
   gather_facts: false
 
   tasks:
-    - debug: msg="Host is {{ ansible_fqdn }}"
+    - debug: msg="Host is {{ hostname }}"
     - name: Test host connectivity
       ping:
 
