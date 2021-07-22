@@ -1,9 +1,10 @@
 ---
 - name: BASIC TASKS
-  hosts: all
+  hosts: '{{ host }}'
   gather_facts: false
 
   tasks:
+    - debug: msg="Host is {{ ansible_fqdn }}"
     - name: Test host connectivity
       ping:
 
