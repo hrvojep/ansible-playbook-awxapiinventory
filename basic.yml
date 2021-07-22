@@ -1,6 +1,6 @@
 ---
 - name: BASIC TASKS
-  hosts: all
+  hosts: '{{ host }}'
   gather_facts: false
 
   tasks:
